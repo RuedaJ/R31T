@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from adapters.parsers import load_phase1_zip
-st.set_page_config(page_title="REIT Phase 1", page_icon="🏗️", layout="wide")
+st.set_page_config(page_title="REIT Phase 1", page_icon=":building_construction:", layout="wide")
 
 st.sidebar.title("REIT Phase 1")
 st.sidebar.markdown("**Tabs:** Data Intake → Alignment → Retrofits (lite) → Governance (lite)")
